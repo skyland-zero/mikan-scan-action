@@ -17,8 +17,12 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
-      - name: App Settings Variable Substitution
-        uses: microsoft/variable-substitution@v1
+
+      - name: Install dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: cd src/MikanScan.ConsoleApp && dotnet run -c Release --no-restore
         env: # Or as an environment variable
           QBHOST: ${{ secrets.QBHOST }}
           QBPASSWORD: ${{ secrets.QBPASSWORD }}
@@ -27,9 +31,3 @@ jobs:
           TELEGRAMCHATID: ${{ secrets.TELEGRAMCHATID }}
           TELEGRAMTOKEN: ${{ secrets.TELEGRAMTOKEN }}
           TELEGRAMHOST: ${{ secrets.TELEGRAMHOST }}
-
-      - name: Install dependencies
-        run: dotnet restore
-
-      - name: Build
-        run: cd src/MikanScan.ConsoleApp && dotnet run -c Release --no-restore
