@@ -1,0 +1,304 @@
+2024-06-07 14:18:20.936 +08:00 [INF] Starting console host.
+2024-06-07 14:18:21.125 +08:00 [INF] Loaded ABP modules:
+2024-06-07 14:18:21.126 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-07 14:18:21.126 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-07 14:18:21.126 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-07 14:18:21.132 +08:00 [INF] MySettingName => MySettingValue
+2024-06-07 14:18:21.132 +08:00 [INF] EnvironmentName => Development
+2024-06-07 14:18:21.132 +08:00 [INF] Initialized all ABP modules.
+2024-06-07 14:18:21.148 +08:00 [INF] Hello World!
+2024-06-07 14:18:21.148 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-07 14:18:21.151 +08:00 [INF] Hosting environment: Development
+2024-06-07 14:18:21.151 +08:00 [INF] Content root path: D:\Coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp
+2024-06-07 14:18:34.686 +08:00 [INF] Application is shutting down...
+2024-06-07 14:24:23.131 +08:00 [INF] Starting console host.
+2024-06-07 14:24:23.307 +08:00 [INF] Loaded ABP modules:
+2024-06-07 14:24:23.307 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-07 14:24:23.307 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-07 14:24:23.307 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-07 14:24:23.313 +08:00 [INF] MySettingName => MySettingValue
+2024-06-07 14:24:23.313 +08:00 [INF] EnvironmentName => Development
+2024-06-07 14:24:23.313 +08:00 [INF] Initialized all ABP modules.
+2024-06-07 14:24:23.330 +08:00 [INF] Hello World!
+2024-06-07 14:24:23.330 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-07 14:24:23.333 +08:00 [INF] Hosting environment: Development
+2024-06-07 14:24:23.333 +08:00 [INF] Content root path: D:\Coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp
+2024-06-07 14:24:32.505 +08:00 [INF] Application is shutting down...
+2024-06-07 17:10:01.350 +08:00 [INF] Starting console host.
+2024-06-07 17:10:01.561 +08:00 [INF] Loaded ABP modules:
+2024-06-07 17:10:01.562 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-07 17:10:01.562 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-07 17:10:01.562 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-07 17:10:01.567 +08:00 [INF] EnvironmentName => Development
+2024-06-07 17:10:01.640 +08:00 [INF] Initialized all ABP modules.
+2024-06-07 17:10:01.659 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-07 17:10:01.662 +08:00 [INF] Hosting environment: Development
+2024-06-07 17:10:01.662 +08:00 [INF] Content root path: D:\Coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp
+2024-06-07 17:10:11.665 +08:00 [INF] Executed PeriodicHostedService - Count: 1
+2024-06-07 17:10:21.672 +08:00 [INF] Executed PeriodicHostedService - Count: 2
+2024-06-07 17:10:31.664 +08:00 [INF] Executed PeriodicHostedService - Count: 3
+2024-06-07 17:10:41.663 +08:00 [INF] Executed PeriodicHostedService - Count: 4
+2024-06-07 17:10:51.665 +08:00 [INF] Executed PeriodicHostedService - Count: 5
+2024-06-07 17:11:01.659 +08:00 [INF] Executed PeriodicHostedService - Count: 6
+2024-06-07 17:11:11.666 +08:00 [INF] Executed PeriodicHostedService - Count: 7
+2024-06-07 17:11:21.661 +08:00 [INF] Executed PeriodicHostedService - Count: 8
+2024-06-07 17:11:31.662 +08:00 [INF] Executed PeriodicHostedService - Count: 9
+2024-06-07 17:11:41.659 +08:00 [INF] Executed PeriodicHostedService - Count: 10
+2024-06-07 17:11:51.669 +08:00 [INF] Executed PeriodicHostedService - Count: 11
+2024-06-07 17:12:01.671 +08:00 [INF] Executed PeriodicHostedService - Count: 12
+2024-06-07 17:12:11.672 +08:00 [INF] Executed PeriodicHostedService - Count: 13
+2024-06-07 17:12:21.664 +08:00 [INF] Executed PeriodicHostedService - Count: 14
+2024-06-07 17:12:31.658 +08:00 [INF] Executed PeriodicHostedService - Count: 15
+2024-06-07 17:12:32.264 +08:00 [INF] Application is shutting down...
+2024-06-07 17:12:34.832 +08:00 [INF] Starting console host.
+2024-06-07 17:12:35.093 +08:00 [INF] Loaded ABP modules:
+2024-06-07 17:12:35.094 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-07 17:12:35.094 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-07 17:12:35.094 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-07 17:12:35.103 +08:00 [INF] EnvironmentName => Development
+2024-06-07 17:12:35.146 +08:00 [INF] Initialized all ABP modules.
+2024-06-07 17:12:35.168 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-07 17:12:35.171 +08:00 [INF] Hosting environment: Development
+2024-06-07 17:12:35.171 +08:00 [INF] Content root path: D:\Coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp
+2024-06-07 17:12:45.171 +08:00 [INF] Executed PeriodicHostedService - Count: 1
+2024-06-07 17:12:55.178 +08:00 [INF] Executed PeriodicHostedService - Count: 2
+2024-06-07 17:13:05.178 +08:00 [INF] Executed PeriodicHostedService - Count: 3
+2024-06-07 17:13:15.172 +08:00 [INF] Executed PeriodicHostedService - Count: 4
+2024-06-07 17:13:25.169 +08:00 [INF] Executed PeriodicHostedService - Count: 5
+2024-06-07 17:13:29.593 +08:00 [INF] Application is shutting down...
+2024-06-13 17:01:34.724 +08:00 [INF] Starting console host.
+2024-06-13 17:01:35.076 +08:00 [INF] Loaded ABP modules:
+2024-06-13 17:01:35.077 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-13 17:01:35.077 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-13 17:01:35.077 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-13 17:01:35.077 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-13 17:01:35.088 +08:00 [INF] EnvironmentName => Development
+2024-06-13 17:01:35.175 +08:00 [INF] Initialized all ABP modules.
+2024-06-13 17:01:35.199 +08:00 [INF] --------------------------------------------------------
+2024-06-13 17:01:35.199 +08:00 [INF] 执行检测上次抓取时间
+2024-06-13 17:01:35.212 +08:00 [INF] 开始加载网页
+2024-06-13 17:01:36.991 +08:00 [INF] 网页加载结束
+2024-06-13 17:01:37.021 +08:00 [INF] --------------------------------------------------------
+2024-06-13 17:01:37.021 +08:00 [INF] 开始解析： 迷宫饭 详情页：/Home/Bangumi/3240
+2024-06-13 17:01:37.022 +08:00 [INF] 迷宫饭:开始解析详情
+2024-06-13 17:01:37.874 +08:00 [INF] 迷宫饭:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-13 17:01:37.916 +08:00 [INF] 迷宫饭:已保存信息
+2024-06-13 17:01:37.919 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-13 17:01:37.924 +08:00 [INF] Hosting environment: Development
+2024-06-13 17:01:37.924 +08:00 [INF] Content root path: /home/code/MikanScan.ConsoleApp/src/MikanScan.ConsoleApp
+2024-06-13 17:01:38.429 +08:00 [INF] Application is shutting down...
+2024-06-13 17:01:38.442 +08:00 [ERR] Anime抓取出错：A task was canceled.
+2024-06-13 17:01:38.442 +08:00 [INF] --------------------------------------------------------
+2024-06-13 20:49:00.046 +08:00 [INF] Starting console host.
+2024-06-13 20:49:00.498 +08:00 [INF] Loaded ABP modules:
+2024-06-13 20:49:00.499 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-13 20:49:00.499 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-13 20:49:00.499 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-13 20:49:00.499 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-13 20:49:00.499 +08:00 [INF]   - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-13 20:49:00.499 +08:00 [INF]     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-13 20:49:00.499 +08:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-13 20:49:00.499 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-13 20:49:00.499 +08:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-13 20:49:00.499 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-13 20:49:00.499 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2024-06-13 20:49:00.499 +08:00 [INF]         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-13 20:49:00.499 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2024-06-13 20:49:00.499 +08:00 [INF]       - Volo.Abp.Settings.AbpSettingsModule
+2024-06-13 20:49:00.499 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-13 20:49:00.499 +08:00 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-13 20:49:00.499 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-13 20:49:00.499 +08:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2024-06-13 20:49:00.499 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2024-06-13 20:49:00.499 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-13 20:49:00.499 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-13 20:49:00.499 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2024-06-13 20:49:00.499 +08:00 [INF]     - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-13 20:49:00.499 +08:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-13 20:49:00.523 +08:00 [INF] EnvironmentName => Development
+2024-06-13 20:49:00.634 +08:00 [WRN] 未配置WxPlusher uids
+2024-06-13 20:49:00.636 +08:00 [INF] Initialized all ABP modules.
+2024-06-13 20:49:00.655 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-13 20:49:00.659 +08:00 [INF] Hosting environment: Development
+2024-06-13 20:49:00.659 +08:00 [INF] Content root path: /home/code/MikanScan.ConsoleApp/src/MikanScan.ConsoleApp
+2024-06-13 20:49:10.592 +08:00 [INF] Application is shutting down...
+2024-06-13 20:50:02.795 +08:00 [INF] Starting console host.
+2024-06-13 20:50:03.781 +08:00 [INF] Loaded ABP modules:
+2024-06-13 20:50:03.783 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-13 20:50:03.783 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-13 20:50:03.783 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-13 20:50:03.783 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-13 20:50:03.783 +08:00 [INF]   - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-13 20:50:03.783 +08:00 [INF]     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-13 20:50:03.783 +08:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-13 20:50:03.783 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-13 20:50:03.783 +08:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-13 20:50:03.783 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-13 20:50:03.783 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2024-06-13 20:50:03.783 +08:00 [INF]         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-13 20:50:03.783 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2024-06-13 20:50:03.783 +08:00 [INF]       - Volo.Abp.Settings.AbpSettingsModule
+2024-06-13 20:50:03.783 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-13 20:50:03.783 +08:00 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-13 20:50:03.783 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-13 20:50:03.783 +08:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2024-06-13 20:50:03.783 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2024-06-13 20:50:03.783 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-13 20:50:03.783 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-13 20:50:03.783 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2024-06-13 20:50:03.783 +08:00 [INF]     - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-13 20:50:03.783 +08:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-13 20:50:03.810 +08:00 [INF] EnvironmentName => Development
+2024-06-13 20:51:57.363 +08:00 [INF] Starting console host.
+2024-06-13 20:51:57.793 +08:00 [INF] Loaded ABP modules:
+2024-06-13 20:51:57.794 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-13 20:51:57.794 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-13 20:51:57.794 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-13 20:51:57.794 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-13 20:51:57.794 +08:00 [INF]   - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-13 20:51:57.794 +08:00 [INF]     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-13 20:51:57.794 +08:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-13 20:51:57.794 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-13 20:51:57.794 +08:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-13 20:51:57.794 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-13 20:51:57.794 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2024-06-13 20:51:57.794 +08:00 [INF]         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-13 20:51:57.794 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2024-06-13 20:51:57.794 +08:00 [INF]       - Volo.Abp.Settings.AbpSettingsModule
+2024-06-13 20:51:57.794 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-13 20:51:57.794 +08:00 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-13 20:51:57.794 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-13 20:51:57.794 +08:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2024-06-13 20:51:57.794 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2024-06-13 20:51:57.794 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-13 20:51:57.794 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-13 20:51:57.794 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2024-06-13 20:51:57.794 +08:00 [INF]     - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-13 20:51:57.794 +08:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-13 20:51:57.817 +08:00 [INF] EnvironmentName => Development
+2024-06-13 20:51:58.469 +08:00 [INF] Initialized all ABP modules.
+2024-06-13 20:51:58.487 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-13 20:51:58.492 +08:00 [INF] Hosting environment: Development
+2024-06-13 20:51:58.492 +08:00 [INF] Content root path: /home/code/MikanScan.ConsoleApp/src/MikanScan.ConsoleApp
+2024-06-13 20:52:44.237 +08:00 [INF] Application is shutting down...
+2024-06-14 20:57:42.983 +08:00 [INF] Starting console host.
+2024-06-14 20:57:43.771 +08:00 [INF] Loaded ABP modules:
+2024-06-14 20:57:43.772 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-14 20:57:43.773 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-14 20:57:43.773 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-14 20:57:43.773 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-14 20:57:43.773 +08:00 [INF]   - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-14 20:57:43.773 +08:00 [INF]     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-14 20:57:43.773 +08:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-14 20:57:43.773 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-14 20:57:43.773 +08:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-14 20:57:43.773 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-14 20:57:43.773 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2024-06-14 20:57:43.773 +08:00 [INF]         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-14 20:57:43.773 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2024-06-14 20:57:43.773 +08:00 [INF]       - Volo.Abp.Settings.AbpSettingsModule
+2024-06-14 20:57:43.773 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-14 20:57:43.773 +08:00 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-14 20:57:43.773 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-14 20:57:43.773 +08:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2024-06-14 20:57:43.773 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2024-06-14 20:57:43.773 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-14 20:57:43.773 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-14 20:57:43.773 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2024-06-14 20:57:43.773 +08:00 [INF]     - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-14 20:57:43.773 +08:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-14 20:57:43.798 +08:00 [INF] EnvironmentName => Development
+2024-06-14 20:57:45.970 +08:00 [WRN] 未配置WxPlusher Token
+2024-06-14 20:57:45.973 +08:00 [INF] Initialized all ABP modules.
+2024-06-14 20:57:45.997 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:57:45.997 +08:00 [INF] 执行检测上次抓取时间
+2024-06-14 20:57:46.008 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-14 20:57:46.012 +08:00 [INF] Hosting environment: Development
+2024-06-14 20:57:46.012 +08:00 [INF] Content root path: /home/code/MikanScan.ConsoleApp/src/MikanScan.ConsoleApp
+2024-06-14 20:57:47.152 +08:00 [WRN] 未配置WxPlusher Token
+2024-06-14 20:57:47.162 +08:00 [INF] 开始加载网页
+2024-06-14 20:57:48.626 +08:00 [INF] 网页加载结束
+2024-06-14 20:57:48.659 +08:00 [INF] 哆啦A梦已被排除，解析下一个
+2024-06-14 20:57:48.659 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:57:48.659 +08:00 [INF] 开始解析： 宝可梦 地平线 详情页：/Home/Bangumi/3015
+2024-06-14 20:57:48.661 +08:00 [INF] 宝可梦 地平线:开始解析详情
+2024-06-14 20:57:49.075 +08:00 [INF] 宝可梦 地平线:已解析到字幕组信息，当前字幕组为：KiraraFantasia
+2024-06-14 20:57:49.091 +08:00 [INF] 宝可梦 地平线:已保存信息
+2024-06-14 20:57:50.244 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:57:50.244 +08:00 [INF] 开始解析： 虹四动画 第二季 详情页：/Home/Bangumi/3297
+2024-06-14 20:57:50.244 +08:00 [INF] 虹四动画 第二季:开始解析详情
+2024-06-14 20:57:50.634 +08:00 [INF] 虹四动画 第二季:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-14 20:57:50.652 +08:00 [INF] 虹四动画 第二季:已保存信息
+2024-06-14 20:57:51.797 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:57:51.797 +08:00 [INF] 开始解析： GIRLS BAND CRY 详情页：/Home/Bangumi/3298
+2024-06-14 20:57:51.797 +08:00 [INF] GIRLS BAND CRY:开始解析详情
+2024-06-14 20:57:52.465 +08:00 [INF] GIRLS BAND CRY:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-14 20:57:52.478 +08:00 [INF] GIRLS BAND CRY:已保存信息
+2024-06-14 20:57:53.670 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:57:53.670 +08:00 [INF] 开始解析： 魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～ 第二季 第2部分 详情页：/Home/Bangumi/3303
+2024-06-14 20:57:53.670 +08:00 [INF] 魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～ 第二季 第2部分:开始解析详情
+2024-06-14 20:57:54.306 +08:00 [INF] 魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～ 第二季 第2部分:已解析到字幕组信息，当前字幕组为：ANi
+2024-06-14 20:57:54.319 +08:00 [INF] 魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～ 第二季 第2部分:已保存信息
+2024-06-14 20:57:55.384 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:57:55.384 +08:00 [INF] 开始解析： 极速星舞 详情页：/Home/Bangumi/3316
+2024-06-14 20:57:55.384 +08:00 [INF] 极速星舞:开始解析详情
+2024-06-14 20:57:55.769 +08:00 [INF] 极速星舞:已解析到字幕组信息，当前字幕组为：ANi
+2024-06-14 20:57:55.783 +08:00 [INF] 极速星舞:已保存信息
+2024-06-14 20:57:56.690 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:57:56.690 +08:00 [INF] 开始解析： 星际庄的恋爱日记 详情页：/Home/Bangumi/3324
+2024-06-14 20:57:56.690 +08:00 [INF] 星际庄的恋爱日记:开始解析详情
+2024-06-14 20:57:57.102 +08:00 [INF] 星际庄的恋爱日记:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-14 20:57:57.117 +08:00 [INF] 星际庄的恋爱日记:已保存信息
+2024-06-14 20:57:58.114 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:57:58.114 +08:00 [INF] 开始解析： 魔法科高校的劣等生 第三季 详情页：/Home/Bangumi/3325
+2024-06-14 20:57:58.114 +08:00 [INF] 魔法科高校的劣等生 第三季:开始解析详情
+2024-06-14 20:57:58.499 +08:00 [INF] 魔法科高校的劣等生 第三季:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-14 20:57:58.507 +08:00 [INF] 魔法科高校的劣等生 第三季:已保存信息
+2024-06-14 20:57:59.693 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:57:59.693 +08:00 [INF] 开始解析： 关于我转生变成史莱姆这档事 第三季 详情页：/Home/Bangumi/3341
+2024-06-14 20:57:59.693 +08:00 [INF] 关于我转生变成史莱姆这档事 第三季:开始解析详情
+2024-06-14 20:58:00.080 +08:00 [INF] 关于我转生变成史莱姆这档事 第三季:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-14 20:58:00.097 +08:00 [INF] 关于我转生变成史莱姆这档事 第三季:已保存信息
+2024-06-14 20:58:00.642 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:58:00.642 +08:00 [INF] 开始解析： 偶像大师 闪耀色彩 详情页：/Home/Bangumi/3342
+2024-06-14 20:58:00.642 +08:00 [INF] 偶像大师 闪耀色彩:开始解析详情
+2024-06-14 20:58:01.085 +08:00 [INF] 偶像大师 闪耀色彩:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-14 20:58:01.100 +08:00 [INF] 偶像大师 闪耀色彩:已保存信息
+2024-06-14 20:58:01.698 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:58:01.698 +08:00 [INF] 开始解析： 迷宫饭 详情页：/Home/Bangumi/3240
+2024-06-14 20:58:01.698 +08:00 [INF] 迷宫饭:开始解析详情
+2024-06-14 20:58:02.197 +08:00 [INF] 迷宫饭:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-14 20:58:02.214 +08:00 [INF] 迷宫饭:已保存信息
+2024-06-14 20:58:03.353 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:58:03.353 +08:00 [INF] 开始解析： 福星小子 第二季 详情页：/Home/Bangumi/3269
+2024-06-14 20:58:03.353 +08:00 [INF] 福星小子 第二季:开始解析详情
+2024-06-14 20:58:03.755 +08:00 [INF] 福星小子 第二季:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-14 20:58:03.769 +08:00 [INF] 福星小子 第二季:已保存信息
+2024-06-14 20:58:04.542 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:58:04.542 +08:00 [INF] 开始解析： 防风少年 详情页：/Home/Bangumi/3295
+2024-06-14 20:58:04.542 +08:00 [INF] 防风少年:开始解析详情
+2024-06-14 20:58:04.924 +08:00 [INF] 防风少年:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-14 20:58:04.933 +08:00 [INF] 防风少年:已保存信息
+2024-06-14 20:58:05.868 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:58:05.868 +08:00 [INF] 开始解析： 摇曳露营△ 第三季 详情页：/Home/Bangumi/3296
+2024-06-14 20:58:05.868 +08:00 [INF] 摇曳露营△ 第三季:开始解析详情
+2024-06-14 20:58:06.696 +08:00 [INF] 摇曳露营△ 第三季:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-14 20:58:06.719 +08:00 [INF] 摇曳露营△ 第三季:已保存信息
+2024-06-14 20:58:07.378 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:58:07.378 +08:00 [INF] 开始解析： 怪人的沙拉碗 详情页：/Home/Bangumi/3307
+2024-06-14 20:58:07.378 +08:00 [INF] 怪人的沙拉碗:开始解析详情
+2024-06-14 20:58:07.776 +08:00 [INF] 怪人的沙拉碗:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-14 20:58:07.787 +08:00 [INF] 怪人的沙拉碗:已保存信息
+2024-06-14 20:58:08.857 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:58:08.857 +08:00 [INF] 开始解析： 花野井君与相思病 详情页：/Home/Bangumi/3315
+2024-06-14 20:58:08.857 +08:00 [INF] 花野井君与相思病:开始解析详情
+2024-06-14 20:58:09.456 +08:00 [INF] 花野井君与相思病:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-14 20:58:09.474 +08:00 [INF] 花野井君与相思病:已保存信息
+2024-06-14 20:58:10.386 +08:00 [INF] --------------------------------------------------------
+2024-06-14 20:58:10.386 +08:00 [INF] 开始解析： 怪物转生 详情页：/Home/Bangumi/3323
+2024-06-14 20:58:10.386 +08:00 [INF] 怪物转生:开始解析详情
+2024-06-14 20:58:10.744 +08:00 [INF] 怪物转生:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-14 20:58:10.751 +08:00 [INF] 怪物转生:已保存信息
+2024-06-14 20:58:10.847 +08:00 [INF] Application is shutting down...
+2024-06-14 20:58:10.861 +08:00 [ERR] Anime抓取出错：A task was canceled.
+2024-06-14 20:58:10.861 +08:00 [INF] --------------------------------------------------------
