@@ -302,3 +302,339 @@
 2024-06-14 20:58:10.847 +08:00 [INF] Application is shutting down...
 2024-06-14 20:58:10.861 +08:00 [ERR] Anime抓取出错：A task was canceled.
 2024-06-14 20:58:10.861 +08:00 [INF] --------------------------------------------------------
+2024-06-26 22:26:20.201 +08:00 [INF] Starting console host.
+2024-06-26 22:26:20.619 +08:00 [INF] Loaded ABP modules:
+2024-06-26 22:26:20.620 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-26 22:26:20.620 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-26 22:26:20.620 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-26 22:26:20.620 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-26 22:26:20.620 +08:00 [INF]   - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-26 22:26:20.620 +08:00 [INF]     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-26 22:26:20.620 +08:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-26 22:26:20.620 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-26 22:26:20.620 +08:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-26 22:26:20.620 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-26 22:26:20.620 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2024-06-26 22:26:20.620 +08:00 [INF]         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-26 22:26:20.620 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2024-06-26 22:26:20.620 +08:00 [INF]       - Volo.Abp.Settings.AbpSettingsModule
+2024-06-26 22:26:20.620 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-26 22:26:20.620 +08:00 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-26 22:26:20.620 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-26 22:26:20.620 +08:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2024-06-26 22:26:20.620 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2024-06-26 22:26:20.620 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-26 22:26:20.620 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-26 22:26:20.620 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2024-06-26 22:26:20.620 +08:00 [INF]     - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-26 22:26:20.620 +08:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-26 22:26:20.642 +08:00 [INF] EnvironmentName => Development
+2024-06-26 22:26:20.726 +08:00 [INF] Initialized all ABP modules.
+2024-06-26 22:26:20.744 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-26 22:26:20.748 +08:00 [INF] Hosting environment: Development
+2024-06-26 22:26:20.748 +08:00 [INF] Content root path: D:\coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp
+2024-06-26 22:26:22.018 +08:00 [INF] Application is shutting down...
+2024-06-26 22:27:03.625 +08:00 [INF] Starting console host.
+2024-06-26 22:27:04.052 +08:00 [INF] Loaded ABP modules:
+2024-06-26 22:27:04.053 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-26 22:27:04.053 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-26 22:27:04.053 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-26 22:27:04.053 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-26 22:27:04.053 +08:00 [INF]   - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-26 22:27:04.053 +08:00 [INF]     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-26 22:27:04.053 +08:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-26 22:27:04.053 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-26 22:27:04.053 +08:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-26 22:27:04.053 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-26 22:27:04.053 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2024-06-26 22:27:04.053 +08:00 [INF]         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-26 22:27:04.053 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2024-06-26 22:27:04.053 +08:00 [INF]       - Volo.Abp.Settings.AbpSettingsModule
+2024-06-26 22:27:04.053 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-26 22:27:04.053 +08:00 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-26 22:27:04.053 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-26 22:27:04.053 +08:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2024-06-26 22:27:04.053 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2024-06-26 22:27:04.053 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-26 22:27:04.053 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-26 22:27:04.053 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2024-06-26 22:27:04.053 +08:00 [INF]     - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-26 22:27:04.053 +08:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-26 22:27:04.074 +08:00 [INF] EnvironmentName => Development
+2024-06-26 22:27:04.138 +08:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during the initialize Volo.Abp.Modularity.OnApplicationInitializationModuleLifecycleContributor phase of the module MikanScan.ConsoleApp.ConsoleAppModule, MikanScan.ConsoleApp, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null: SQLite Error 14: 'unable to open database file'.. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteConnectionInternal..ctor(SqliteConnectionStringBuilder connectionOptions, SqliteConnectionPool pool)
+   at Microsoft.Data.Sqlite.SqliteConnectionPool.GetConnection()
+   at Microsoft.Data.Sqlite.SqliteConnectionFactory.GetConnection(SqliteConnection outerConnection)
+   at Microsoft.Data.Sqlite.SqliteConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 661
+   at MikanScan.ConsoleApp.Services.DataSeedService.InitDataBaseAsync() in D:\coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp\Services\DataSeedService.cs:line 59
+   at MikanScan.ConsoleApp.Services.DataSeedService.InitDataBaseAsync() in D:\coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp\Services\DataSeedService.cs:line 60
+   at MikanScan.ConsoleApp.ConsoleAppModule.OnApplicationInitializationAsync(ApplicationInitializationContext context) in D:\coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp\ConsoleAppModule.cs:line 32
+   at Volo.Abp.Modularity.OnApplicationInitializationModuleLifecycleContributor.InitializeAsync(ApplicationInitializationContext context, IAbpModule module)
+   at Volo.Abp.Modularity.ModuleManager.InitializeModulesAsync(ApplicationInitializationContext context)
+   --- End of inner exception stack trace ---
+   at Volo.Abp.Modularity.ModuleManager.InitializeModulesAsync(ApplicationInitializationContext context)
+   at Volo.Abp.AbpApplicationBase.InitializeModulesAsync()
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider.InitializeAsync(IServiceProvider serviceProvider)
+   at Microsoft.Extensions.Hosting.AbpHostExtensions.InitializeAsync(IHost host)
+   at MikanScan.ConsoleApp.Program.Main(String[] args) in D:\coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp\Program.cs:line 48
+2024-06-26 22:27:27.638 +08:00 [INF] Starting console host.
+2024-06-26 22:27:28.048 +08:00 [INF] Loaded ABP modules:
+2024-06-26 22:27:28.049 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-26 22:27:28.049 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-26 22:27:28.049 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-26 22:27:28.049 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-26 22:27:28.049 +08:00 [INF]   - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-26 22:27:28.049 +08:00 [INF]     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-26 22:27:28.049 +08:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-26 22:27:28.049 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-26 22:27:28.049 +08:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-26 22:27:28.050 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-26 22:27:28.050 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2024-06-26 22:27:28.050 +08:00 [INF]         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-26 22:27:28.050 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2024-06-26 22:27:28.050 +08:00 [INF]       - Volo.Abp.Settings.AbpSettingsModule
+2024-06-26 22:27:28.050 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-26 22:27:28.050 +08:00 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-26 22:27:28.050 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-26 22:27:28.050 +08:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2024-06-26 22:27:28.050 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2024-06-26 22:27:28.050 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-26 22:27:28.050 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-26 22:27:28.050 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2024-06-26 22:27:28.050 +08:00 [INF]     - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-26 22:27:28.050 +08:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-26 22:27:28.070 +08:00 [INF] EnvironmentName => Development
+2024-06-26 22:27:28.153 +08:00 [INF] Initialized all ABP modules.
+2024-06-26 22:27:28.171 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-26 22:27:28.174 +08:00 [INF] Hosting environment: Development
+2024-06-26 22:27:28.175 +08:00 [INF] Content root path: D:\coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp
+2024-06-26 22:27:29.985 +08:00 [INF] Application is shutting down...
+2024-06-26 22:29:34.300 +08:00 [INF] Starting console host.
+2024-06-26 22:29:34.715 +08:00 [INF] Loaded ABP modules:
+2024-06-26 22:29:34.716 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-26 22:29:34.716 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-26 22:29:34.716 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-26 22:29:34.716 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-26 22:29:34.716 +08:00 [INF]   - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-26 22:29:34.716 +08:00 [INF]     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-26 22:29:34.716 +08:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-26 22:29:34.716 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-26 22:29:34.716 +08:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-26 22:29:34.716 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-26 22:29:34.716 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2024-06-26 22:29:34.716 +08:00 [INF]         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-26 22:29:34.716 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2024-06-26 22:29:34.716 +08:00 [INF]       - Volo.Abp.Settings.AbpSettingsModule
+2024-06-26 22:29:34.716 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-26 22:29:34.716 +08:00 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-26 22:29:34.716 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-26 22:29:34.716 +08:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2024-06-26 22:29:34.716 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2024-06-26 22:29:34.716 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-26 22:29:34.716 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-26 22:29:34.716 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2024-06-26 22:29:34.716 +08:00 [INF]     - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-26 22:29:34.716 +08:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-26 22:29:34.736 +08:00 [INF] EnvironmentName => Development
+2024-06-26 22:29:34.818 +08:00 [INF] Initialized all ABP modules.
+2024-06-26 22:29:34.835 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-26 22:29:34.839 +08:00 [INF] Hosting environment: Development
+2024-06-26 22:29:34.839 +08:00 [INF] Content root path: D:\coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp
+2024-06-26 22:29:37.545 +08:00 [INF] Application is shutting down...
+2024-06-26 22:36:54.219 +08:00 [INF] Starting console host.
+2024-06-26 22:36:54.649 +08:00 [INF] Loaded ABP modules:
+2024-06-26 22:36:54.650 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-26 22:36:54.650 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-26 22:36:54.650 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-26 22:36:54.650 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-26 22:36:54.650 +08:00 [INF]   - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-26 22:36:54.650 +08:00 [INF]     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-26 22:36:54.650 +08:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-26 22:36:54.650 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-26 22:36:54.650 +08:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-26 22:36:54.650 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-26 22:36:54.650 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2024-06-26 22:36:54.650 +08:00 [INF]         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-26 22:36:54.650 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2024-06-26 22:36:54.650 +08:00 [INF]       - Volo.Abp.Settings.AbpSettingsModule
+2024-06-26 22:36:54.650 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-26 22:36:54.650 +08:00 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-26 22:36:54.650 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-26 22:36:54.650 +08:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2024-06-26 22:36:54.650 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2024-06-26 22:36:54.650 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-26 22:36:54.650 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-26 22:36:54.650 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2024-06-26 22:36:54.650 +08:00 [INF]     - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-26 22:36:54.650 +08:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-26 22:36:54.670 +08:00 [INF] EnvironmentName => Development
+2024-06-26 22:36:54.733 +08:00 [INF] Initialized all ABP modules.
+2024-06-26 22:36:54.736 +08:00 [INF] Application is shutting down...
+2024-06-26 22:36:54.747 +08:00 [FTL] Host terminated unexpectedly!
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at MikanScan.ConsoleApp.Program.Main(String[] args) in D:\coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp\Program.cs:line 50
+2024-06-26 22:37:17.547 +08:00 [INF] Starting console host.
+2024-06-26 22:37:17.966 +08:00 [INF] Loaded ABP modules:
+2024-06-26 22:37:17.967 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-26 22:37:17.967 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-26 22:37:17.967 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-26 22:37:17.967 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-26 22:37:17.967 +08:00 [INF]   - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-26 22:37:17.967 +08:00 [INF]     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-26 22:37:17.967 +08:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-26 22:37:17.967 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-26 22:37:17.967 +08:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-26 22:37:17.967 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-26 22:37:17.967 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2024-06-26 22:37:17.967 +08:00 [INF]         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-26 22:37:17.967 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2024-06-26 22:37:17.967 +08:00 [INF]       - Volo.Abp.Settings.AbpSettingsModule
+2024-06-26 22:37:17.967 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-26 22:37:17.967 +08:00 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-26 22:37:17.967 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-26 22:37:17.967 +08:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2024-06-26 22:37:17.967 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2024-06-26 22:37:17.967 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-26 22:37:17.967 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-26 22:37:17.967 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2024-06-26 22:37:17.967 +08:00 [INF]     - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-26 22:37:17.967 +08:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-26 22:37:17.988 +08:00 [INF] EnvironmentName => Development
+2024-06-26 22:37:23.056 +08:00 [INF] Initialized all ABP modules.
+2024-06-26 22:37:23.060 +08:00 [INF] Application is shutting down...
+2024-06-26 22:37:23.070 +08:00 [FTL] Host terminated unexpectedly!
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at MikanScan.ConsoleApp.Program.Main(String[] args) in D:\coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp\Program.cs:line 50
+2024-06-26 22:38:34.307 +08:00 [INF] Starting console host.
+2024-06-26 22:38:34.749 +08:00 [INF] Loaded ABP modules:
+2024-06-26 22:38:34.750 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-26 22:38:34.750 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-26 22:38:34.750 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-26 22:38:34.750 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-26 22:38:34.750 +08:00 [INF]   - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-26 22:38:34.750 +08:00 [INF]     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-26 22:38:34.750 +08:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-26 22:38:34.750 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-26 22:38:34.750 +08:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-26 22:38:34.750 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-26 22:38:34.750 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2024-06-26 22:38:34.750 +08:00 [INF]         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-26 22:38:34.750 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2024-06-26 22:38:34.750 +08:00 [INF]       - Volo.Abp.Settings.AbpSettingsModule
+2024-06-26 22:38:34.750 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-26 22:38:34.750 +08:00 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-26 22:38:34.750 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-26 22:38:34.750 +08:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2024-06-26 22:38:34.750 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2024-06-26 22:38:34.750 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-26 22:38:34.750 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-26 22:38:34.750 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2024-06-26 22:38:34.750 +08:00 [INF]     - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-26 22:38:34.750 +08:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-26 22:38:34.772 +08:00 [INF] EnvironmentName => Development
+2024-06-26 22:38:39.840 +08:00 [INF] Initialized all ABP modules.
+2024-06-26 22:38:39.845 +08:00 [INF] Application is shutting down...
+2024-06-26 22:38:39.855 +08:00 [FTL] Host terminated unexpectedly!
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at MikanScan.ConsoleApp.Program.Main(String[] args) in D:\coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp\Program.cs:line 50
+2024-06-26 22:41:36.453 +08:00 [INF] Starting console host.
+2024-06-26 22:41:36.879 +08:00 [INF] Loaded ABP modules:
+2024-06-26 22:41:36.881 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-26 22:41:36.881 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-26 22:41:36.881 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-26 22:41:36.881 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-26 22:41:36.881 +08:00 [INF]   - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-26 22:41:36.881 +08:00 [INF]     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-26 22:41:36.881 +08:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-26 22:41:36.881 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-26 22:41:36.881 +08:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-26 22:41:36.881 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-26 22:41:36.881 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2024-06-26 22:41:36.881 +08:00 [INF]         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-26 22:41:36.881 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2024-06-26 22:41:36.881 +08:00 [INF]       - Volo.Abp.Settings.AbpSettingsModule
+2024-06-26 22:41:36.881 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-26 22:41:36.881 +08:00 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-26 22:41:36.881 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-26 22:41:36.881 +08:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2024-06-26 22:41:36.881 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2024-06-26 22:41:36.881 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-26 22:41:36.881 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-26 22:41:36.881 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2024-06-26 22:41:36.881 +08:00 [INF]     - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-26 22:41:36.881 +08:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-26 22:41:36.903 +08:00 [INF] EnvironmentName => Development
+2024-06-26 22:41:37.018 +08:00 [INF] 1
+2024-06-26 22:41:42.035 +08:00 [INF] Initialized all ABP modules.
+2024-06-26 22:41:42.039 +08:00 [INF] Application is shutting down...
+2024-06-26 22:41:42.050 +08:00 [FTL] Host terminated unexpectedly!
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at MikanScan.ConsoleApp.Program.Main(String[] args) in D:\coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp\Program.cs:line 50
+2024-06-26 22:53:44.501 +08:00 [INF] Starting console host.
+2024-06-26 22:53:44.919 +08:00 [INF] Loaded ABP modules:
+2024-06-26 22:53:44.920 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-26 22:53:44.920 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-26 22:53:44.920 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-26 22:53:44.920 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-26 22:53:44.920 +08:00 [INF]   - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-26 22:53:44.920 +08:00 [INF]     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-26 22:53:44.920 +08:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-26 22:53:44.920 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-26 22:53:44.920 +08:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-26 22:53:44.920 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-26 22:53:44.920 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2024-06-26 22:53:44.920 +08:00 [INF]         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-26 22:53:44.920 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2024-06-26 22:53:44.920 +08:00 [INF]       - Volo.Abp.Settings.AbpSettingsModule
+2024-06-26 22:53:44.920 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-26 22:53:44.920 +08:00 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-26 22:53:44.920 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-26 22:53:44.920 +08:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2024-06-26 22:53:44.920 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2024-06-26 22:53:44.920 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-26 22:53:44.920 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-26 22:53:44.920 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2024-06-26 22:53:44.920 +08:00 [INF]     - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-26 22:53:44.920 +08:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-26 22:53:44.942 +08:00 [INF] EnvironmentName => Development
+2024-06-26 22:53:45.053 +08:00 [INF] 1
+2024-06-26 22:53:45.081 +08:00 [WRN] 未配置TelegramMessage Token
+2024-06-26 22:53:45.084 +08:00 [WRN] 未配置WxPlusher Token
+2024-06-26 22:53:45.087 +08:00 [INF] 开始加载网页
+2024-06-26 22:53:47.176 +08:00 [INF] 网页加载结束
+2024-06-26 22:53:47.213 +08:00 [INF] --------------------------------------------------------
+2024-06-26 22:53:47.213 +08:00 [INF] 开始解析： 战国妖狐 详情页：/Home/Bangumi/3236
+2024-06-26 22:53:47.215 +08:00 [INF] 战国妖狐:开始解析详情
+2024-06-26 22:53:48.182 +08:00 [INF] 战国妖狐:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-26 22:53:48.198 +08:00 [INF] 战国妖狐:已保存信息
+2024-06-26 22:53:48.746 +08:00 [INF] --------------------------------------------------------
+2024-06-26 22:53:48.746 +08:00 [INF] 开始解析： 怪异与少女与神隐 详情页：/Home/Bangumi/3280
+2024-06-26 22:53:48.746 +08:00 [INF] 怪异与少女与神隐:开始解析详情
+2024-06-26 22:53:49.677 +08:00 [INF] 怪异与少女与神隐:已解析到字幕组信息，当前字幕组为：LoliHouse
+2024-06-26 22:53:49.696 +08:00 [INF] 怪异与少女与神隐:已保存信息

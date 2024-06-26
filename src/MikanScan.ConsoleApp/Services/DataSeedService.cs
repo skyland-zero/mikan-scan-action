@@ -54,6 +54,7 @@ public class DataSeedService : ITransientDependency
                                                            );
                                                     
                            """;
+        var xx = _configuration["ConnectionString"];
         await using var cnn = new SqliteConnection(_configuration["ConnectionString"]);
         await cnn.ExecuteAsync(animeSql);
         await cnn.ExecuteAsync(animeRssSql);
