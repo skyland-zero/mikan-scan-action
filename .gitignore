@@ -10,6 +10,8 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+src/MikanScan.ConsoleApp/data
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -39,6 +41,8 @@ TestResult.xml
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
+
+
 
 # DNX
 project.lock.json
