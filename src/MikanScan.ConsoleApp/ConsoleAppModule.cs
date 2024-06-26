@@ -63,7 +63,7 @@ public class ConsoleAppModule : AbpModule
         //     await ParseRssAsync(context.ServiceProvider, configuration, logger);
         // }
 
-        logger.LogInformation(configuration.GetSection("QBUSERNAME").Get<string>());
+        logger.LogInformation(configuration.GetSection("TELEGRAMHOST").Get<string>());
         
 
         var lifetime = context.ServiceProvider.GetRequiredService<IHostApplicationLifetime>();
