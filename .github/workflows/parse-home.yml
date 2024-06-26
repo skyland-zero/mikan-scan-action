@@ -20,6 +20,6 @@ jobs:
 
       - name: Install dependencies
         run: dotnet restore
-
+    
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: cd src/MikanScan.ConsoleApp && dotnet run -c Release --no-restore
