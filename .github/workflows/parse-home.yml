@@ -17,6 +17,8 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
+      - name: App Settings Variable Substitution
+        uses: microsoft/variable-substitution@v1
         env: # Or as an environment variable
           QBHOST: ${{ secrets.QBHOST }}
           QBPASSWORD: ${{ secrets.QBPASSWORD }}
