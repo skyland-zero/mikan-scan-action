@@ -62,6 +62,8 @@ public class ConsoleAppModule : AbpModule
         // {
         //     await ParseRssAsync(context.ServiceProvider, configuration, logger);
         // }
+
+        logger.LogInformation(configuration["TeleGRAMHOST"]);
         
 
         var lifetime = context.ServiceProvider.GetRequiredService<IHostApplicationLifetime>();

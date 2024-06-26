@@ -638,3 +638,41 @@ System.OperationCanceledException: The operation was canceled.
 2024-06-26 22:53:48.746 +08:00 [INF] 怪异与少女与神隐:开始解析详情
 2024-06-26 22:53:49.677 +08:00 [INF] 怪异与少女与神隐:已解析到字幕组信息，当前字幕组为：LoliHouse
 2024-06-26 22:53:49.696 +08:00 [INF] 怪异与少女与神隐:已保存信息
+2024-06-26 23:08:10.176 +08:00 [INF] Starting console host.
+2024-06-26 23:08:10.601 +08:00 [INF] Loaded ABP modules:
+2024-06-26 23:08:10.602 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-26 23:08:10.602 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-26 23:08:10.602 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-26 23:08:10.602 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-26 23:08:10.602 +08:00 [INF]   - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-26 23:08:10.602 +08:00 [INF]     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-26 23:08:10.602 +08:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-26 23:08:10.602 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-26 23:08:10.602 +08:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-26 23:08:10.602 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-26 23:08:10.602 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2024-06-26 23:08:10.602 +08:00 [INF]         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-26 23:08:10.602 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2024-06-26 23:08:10.602 +08:00 [INF]       - Volo.Abp.Settings.AbpSettingsModule
+2024-06-26 23:08:10.602 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-26 23:08:10.602 +08:00 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-26 23:08:10.602 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-26 23:08:10.602 +08:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2024-06-26 23:08:10.602 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2024-06-26 23:08:10.602 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-26 23:08:10.602 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-26 23:08:10.602 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2024-06-26 23:08:10.602 +08:00 [INF]     - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-26 23:08:10.602 +08:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-26 23:08:10.624 +08:00 [INF] EnvironmentName => Development
+2024-06-26 23:08:10.750 +08:00 [INF] 1
+2024-06-26 23:08:10.764 +08:00 [INF] Initialized all ABP modules.
+2024-06-26 23:08:10.767 +08:00 [INF] Application is shutting down...
+2024-06-26 23:08:10.779 +08:00 [FTL] Host terminated unexpectedly!
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at MikanScan.ConsoleApp.Program.Main(String[] args) in D:\coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp\Program.cs:line 50
