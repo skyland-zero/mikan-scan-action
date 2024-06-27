@@ -21,14 +21,20 @@ jobs:
       - name: Install dependencies
         run: dotnet restore
 
+      - name: Cache Gradle packages
+        uses: actions/cache@v3
+        with:
+          path: |
+            src/MikanScan.ConsoleApp/data/anime.db
+
       - name: Build
         env: # Or as an environment variable
-          QBHOST: ${{ secrets.QBHOST }}
-          QBPASSWORD: ${{ secrets.QBPASSWORD }}
-          QBUSERNAME: ${{ secrets.QBUSERNAME }}
-          QBBASEDIR: ${{ secrets.QBBASEDIR }}
-          TELEGRAMCHATID: ${{ secrets.TELEGRAMCHATID }}
-          TELEGRAMTOKEN: ${{ secrets.TELEGRAMTOKEN }}
+          QBHOST: ${{ vars.QBHOST }}
+          QBPASSWORD: ${{ vars.QBPASSWORD }}
+          QBUSERNAME: ${{ vars.QBUSERNAME }}
+          QBBASEDIR: ${{ vars.QBBASEDIR }}
+          TELEGRAMCHATID: ${{ vars.TELEGRAMCHATID }}
+          TELEGRAMTOKEN: ${{ vars.TELEGRAMTOKEN }}
           TELEGRAMHOST: ${{ vars.TELEGRAMHOST }}
         run: cd src/MikanScan.ConsoleApp && dotnet run -c Release --no-restore
       - shell: bash
