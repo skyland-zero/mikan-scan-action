@@ -37,8 +37,8 @@ jobs:
           TELEGRAMTOKEN: ${{ vars.TELEGRAMTOKEN }}
           TELEGRAMHOST: ${{ vars.TELEGRAMHOST }}
         run: cd ./src/MikanScan.ConsoleApp && dotnet run -c Release --no-restore
-      - shell: bash 
-        env:
-          SUPER_SECRET: ${{ vars.TELEGRAMHOST }}
-        run: |
-          echo "$SUPER_SECRET"
+      
+      - uses: actions/upload-artifact@v4
+        with:
+          name: db-file
+          path: src/MikanScan.ConsoleApp/data/anime.db
