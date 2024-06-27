@@ -29,11 +29,11 @@ jobs:
           QBBASEDIR: ${{ secrets.QBBASEDIR }}
           TELEGRAMCHATID: ${{ secrets.TELEGRAMCHATID }}
           TELEGRAMTOKEN: ${{ secrets.TELEGRAMTOKEN }}
-          TELEGRAMHOST: ${{ secrets.TELEGRAMHOST }}
+          TELEGRAMHOST: ${{ vars.TELEGRAMHOST }}
         # run: cd src/MikanScan.ConsoleApp && dotnet run -c Release --no-restore
         run: echo $TELEGRAMHOST
       - shell: bash
         env:
-          SUPER_SECRET: ${{ secrets.TELEGRAMHOST }}
+          SUPER_SECRET: ${{ vars.TELEGRAMHOST }}
         run: |
           echo "$SUPER_SECRET"
