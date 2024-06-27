@@ -36,6 +36,7 @@ jobs:
           TELEGRAMCHATID: ${{ vars.TELEGRAMCHATID }}
           TELEGRAMTOKEN: ${{ vars.TELEGRAMTOKEN }}
           TELEGRAMHOST: ${{ vars.TELEGRAMHOST }}
+          RUNTYPE: 1
         run: cd ./src/MikanScan.ConsoleApp && dotnet run -c Release --no-restore
       
       - uses: actions/upload-artifact@v4
