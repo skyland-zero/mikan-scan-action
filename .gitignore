@@ -267,3 +267,4 @@ src/Tieyu.PeopleRealName.Blazor.Server.Tiered/Logs/*
 
 # Use abp install-libs to restore.
 **/wwwroot/libs/*
+src/MikanScan.ConsoleApp/Logs/logs.txt

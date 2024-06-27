@@ -676,3 +676,42 @@ System.OperationCanceledException: The operation was canceled.
    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
    at MikanScan.ConsoleApp.Program.Main(String[] args) in D:\coding\MikanScan.ConsoleApp\src\MikanScan.ConsoleApp\Program.cs:line 50
+2024-06-27 09:17:13.310 +08:00 [INF] Starting console host.
+2024-06-27 09:17:13.570 +08:00 [INF] Loaded ABP modules:
+2024-06-27 09:17:13.571 +08:00 [INF] - MikanScan.ConsoleApp.ConsoleAppModule
+2024-06-27 09:17:13.571 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-27 09:17:13.571 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-27 09:17:13.571 +08:00 [INF]   - Volo.Abp.Guids.AbpGuidsModule
+2024-06-27 09:17:13.571 +08:00 [INF]   - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-27 09:17:13.571 +08:00 [INF]     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-27 09:17:13.571 +08:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-27 09:17:13.571 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-27 09:17:13.571 +08:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-27 09:17:13.571 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-27 09:17:13.571 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2024-06-27 09:17:13.571 +08:00 [INF]         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-27 09:17:13.571 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2024-06-27 09:17:13.571 +08:00 [INF]       - Volo.Abp.Settings.AbpSettingsModule
+2024-06-27 09:17:13.571 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-27 09:17:13.571 +08:00 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-27 09:17:13.571 +08:00 [INF]         - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-27 09:17:13.571 +08:00 [INF]           - Volo.Abp.Threading.AbpThreadingModule
+2024-06-27 09:17:13.571 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2024-06-27 09:17:13.571 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-27 09:17:13.571 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-27 09:17:13.571 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2024-06-27 09:17:13.571 +08:00 [INF]     - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-27 09:17:13.571 +08:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-27 09:17:13.585 +08:00 [INF] EnvironmentName => Development
+2024-06-27 09:17:13.651 +08:00 [INF] 1
+2024-06-27 09:17:13.652 +08:00 [INF] 123123123
+2024-06-27 09:17:13.660 +08:00 [INF] Initialized all ABP modules.
+2024-06-27 09:17:13.662 +08:00 [INF] Application is shutting down...
+2024-06-27 09:17:13.668 +08:00 [FTL] Host terminated unexpectedly!
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at MikanScan.ConsoleApp.Program.Main(String[] args) in D:\Coding\mikan-scan-action\src\MikanScan.ConsoleApp\Program.cs:line 49

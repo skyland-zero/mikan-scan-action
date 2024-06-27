@@ -34,7 +34,6 @@ public class Program
             var builder = Host.CreateApplicationBuilder(args);
 
             builder.Configuration.AddAppSettingsSecretsJson();
-            builder.Configuration.AddEnvironmentVariables();
             builder.Logging.ClearProviders().AddSerilog();
 
             builder.ConfigureContainer(builder.Services.AddAutofacServiceProviderFactory());
