@@ -57,8 +57,8 @@ public class Program
                 throw;
             }
 
-            Log.Fatal(ex, "Host terminated unexpectedly!");
-            return 1;
+            Log.Warning("程序已停止");
+            return 0;
         }
         finally
         {
