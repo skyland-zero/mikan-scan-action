@@ -31,4 +31,9 @@ jobs:
           TELEGRAMTOKEN: ${{ secrets.TELEGRAMTOKEN }}
           TELEGRAMHOST: ${{ secrets.TELEGRAMHOST }}
         # run: cd src/MikanScan.ConsoleApp && dotnet run -c Release --no-restore
-        run: echo $QBHOST
+        run: echo $TELEGRAMHOST
+      - shell: bash
+        env:
+          SUPER_SECRET: ${{ secrets.TELEGRAMHOST }}
+        run: |
+          example-command "$SUPER_SECRET"
