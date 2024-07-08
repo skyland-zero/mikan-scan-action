@@ -12,17 +12,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup .NET Core
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
       - name: Install dependencies
         run: dotnet restore
 
-      - name: Cache db file
-        uses: actions/cache@v3
+      - name: restore cache
+        uses: actions/cache/restore@v4
         with:
           path: /home/runner/out/anime.db
           key: anime.db
@@ -39,6 +39,12 @@ jobs:
           RUNTYPE: 1
         run: cd ./src/MikanScan.ConsoleApp && dotnet publish -c Release --no-restore -o /home/runner/out && cd /home/runner/out && dotnet MikanScan.ConsoleApp.dll
       
+      - name: save cache
+        uses: actions/cache/save@v4
+        with:
+          path: /home/runner/out/anime.db
+          key: anime.db
+
       - uses: actions/upload-artifact@v4
         with:
           name: db-file
