@@ -17,7 +17,7 @@ public static class StringExtension
             string urlFormat = @"^http(s)?://([\w-]+\.)+[\w-]+(/[\w- ./?%&=]*)?$";
             return Regex.IsMatch(str, urlFormat);
         }
-        catch (Exception ex)
+        catch (Exception)
         {
             return false;
         }
