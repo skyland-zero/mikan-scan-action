@@ -7,7 +7,7 @@ name: parse-rss
 
 on:
   schedule:
-    - cron: 10 * * * *
+    - cron: "*/13 * * * *"
 
 env:
   DOTNET_VERSION: "8.0.302" # The .NET SDK version to use
