@@ -40,7 +40,7 @@ jobs:
           TELEGRAMHOST: ${{ vars.TELEGRAMHOST }}
           RUNTYPE: 1
         run: | 
-          cp data/anime.db /home/runner/out/data/anime.db>>/dev/null
+          [[ -e data/anime.db ]] && cp data/anime.db /home/runner/out/data/anime.db
           cd /home/runner/out
           dotnet MikanScan.ConsoleApp.dll      
 
