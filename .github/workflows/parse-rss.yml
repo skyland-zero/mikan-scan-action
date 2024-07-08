@@ -52,6 +52,7 @@ jobs:
       - name: Commit changes
         run: |
           yes | cp -rf /home/runner/out/data/anime.db ./data/anime.db
+          echo `date +"%Y-%m-%d %H:%M:%S"` > ./data/lastrsstime.log
           git config --global user.name "github-actions"
           git config --global user.email "action@github.com"
   
