@@ -21,10 +21,10 @@ jobs:
       - name: Install dependencies
         run: dotnet restore
 
-      - name: Cache Gradle packages
+      - name: Cache db file
         uses: actions/cache@v3
         with:
-          path: /home/runner/work/mikan-scan-action/mikan-scan-action/src/MikanScan.ConsoleApp/data/anime.db
+          path: /out/anime.db
           key: anime.db
 
       - name: Build
@@ -37,9 +37,11 @@ jobs:
           TELEGRAMTOKEN: ${{ vars.TELEGRAMTOKEN }}
           TELEGRAMHOST: ${{ vars.TELEGRAMHOST }}
           RUNTYPE: 1
-        run: cd ./src/MikanScan.ConsoleApp && dotnet run -c Release --no-restore
+        run: cd ./src/MikanScan.ConsoleApp && \
+          dotnet publish -c Release --no-restore -o /out && \
+          cd /out && dotnet MikanScan.ConsoleApp.dll
       
       - uses: actions/upload-artifact@v4
         with:
           name: db-file
-          path: src/MikanScan.ConsoleApp/data/anime.db
+          path: /out/anime.db
