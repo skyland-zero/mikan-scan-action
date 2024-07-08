@@ -6,6 +6,9 @@ name: parse-home
 #       - main
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "0 */2 * * *"
 
