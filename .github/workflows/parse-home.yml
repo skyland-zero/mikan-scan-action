@@ -23,6 +23,7 @@ jobs:
 
       - name: restore cache
         uses: actions/cache/restore@v4
+        id: cache-primes-restore
         with:
           path: /home/runner/out/anime.db
           key: anime.db
@@ -40,10 +41,11 @@ jobs:
         run: cd ./src/MikanScan.ConsoleApp && dotnet publish -c Release --no-restore -o /home/runner/out && cd /home/runner/out && dotnet MikanScan.ConsoleApp.dll
       
       - name: save cache
+        id: cache-primes-save
         uses: actions/cache/save@v4
         with:
           path: /home/runner/out/anime.db
-          key: anime.db
+          key: ${{ steps.cache-primes-restore.outputs.cache-primary-key }}
 
       - uses: actions/upload-artifact@v4
         with:
