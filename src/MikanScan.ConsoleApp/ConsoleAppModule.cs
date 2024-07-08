@@ -54,14 +54,14 @@ public class ConsoleAppModule : AbpModule
 
         var runType = configuration.GetSection("RunType").Get<int>();
         logger.LogInformation(runType.ToString());
-        // if (runType == 1)
-        // {
-        //     await ParseHomeAsync(context.ServiceProvider, configuration, logger);
-        // }
-        // else
-        // {
-        //     await ParseRssAsync(context.ServiceProvider, configuration, logger);
-        // }
+        if (runType == 1)
+        {
+            await ParseHomeAsync(context.ServiceProvider, configuration, logger);
+        }
+        else
+        {
+            await ParseRssAsync(context.ServiceProvider, configuration, logger);
+        }
 
         logger.LogInformation(configuration.GetSection("TELEGRAMHOST").Get<string>());
         

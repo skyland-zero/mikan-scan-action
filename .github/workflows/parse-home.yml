@@ -28,7 +28,7 @@ jobs:
 
       - name: Build
         run: dotnet publish -c Release --no-restore -o /home/runner/out ./src/MikanScan.ConsoleApp/MikanScan.ConsoleApp.csproj
-
+      
       - name: Run
         env: # Or as an environment variable
           QBHOST: ${{ vars.QBHOST }}
@@ -46,7 +46,6 @@ jobs:
 
       - name: Commit changes
         run: |
-          pwd
           cp /home/runner/out/data/anime.db ./data/anime.db
           git config --global user.name "github-actions"
           git config --global user.email "action@github.com"
