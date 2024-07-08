@@ -56,7 +56,7 @@ public class TelegramMessagePlusher : ILocalEventHandler<NotifyEto>, ITransientD
                     .AppendQueryParam("chat_id", chatId)
                     .AppendQueryParam("photo", poster)
                     .AppendQueryParam("caption", content)
-                    .GetStringAsync();
+                    .PostStringAsync("");
             }
             else
             {
@@ -66,13 +66,17 @@ public class TelegramMessagePlusher : ILocalEventHandler<NotifyEto>, ITransientD
                     .AppendPathSegment("sendMessage")
                     .AppendQueryParam("chat_id", chatId)
                     .AppendQueryParam("text", $"{content}")
-                    .GetStringAsync();
+                    .PostStringAsync("");
             }
         }
         catch (FlurlHttpException ex)
         {
             var err = await ex.GetResponseStringAsync();
             _logger.LogWarning($"Error returned from {ex.Call.Request.Url}: {err}");
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "发送消息失败");
         }
     }
 }

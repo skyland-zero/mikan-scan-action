@@ -25,8 +25,9 @@ jobs:
         uses: actions/cache/restore@v4
         id: cache-primes-restore
         with:
-          path: /home/runner/out/data
-          key: data-dir
+          path: |
+            /home/runner/out/data
+          key: ${{ runner.os }}-primes
 
       - name: Build
         env: # Or as an environment variable
@@ -44,7 +45,8 @@ jobs:
         id: cache-primes-save
         uses: actions/cache/save@v4
         with:
-          path: /home/runner/out/data
+          path: |
+            /home/runner/out/data
           key: ${{ steps.cache-primes-restore.outputs.cache-primary-key }}
 
       - uses: actions/upload-artifact@v4
