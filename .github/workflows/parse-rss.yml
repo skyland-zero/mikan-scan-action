@@ -1,4 +1,4 @@
-name: parse-home
+name: parse-rss
 
 # on:
 #   push:
@@ -7,7 +7,7 @@ name: parse-home
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "0 0/20 * * *"
 
 env:
   DOTNET_VERSION: "8.0.302" # The .NET SDK version to use
@@ -42,7 +42,7 @@ jobs:
           TELEGRAM:CHATID: ${{ vars.TELEGRAMCHATID }}
           TELEGRAM:TOKEN: ${{ vars.TELEGRAMTOKEN }}
           TELEGRAM:HOST: ${{ vars.TELEGRAMHOST }}
-          RUNTYPE: 1
+          RUNTYPE: 2
         run: | 
           mkdir -p /home/runner/out/data
           [[ -e ./data/anime.db ]] && yes | cp -rf ./data/anime.db /home/runner/out/data/anime.db
