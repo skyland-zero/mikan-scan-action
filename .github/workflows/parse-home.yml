@@ -40,7 +40,7 @@ jobs:
           RUNTYPE: 1
         run: cd ./src/MikanScan.ConsoleApp && dotnet publish -c Release --no-restore -o /home/runner/out && cd /home/runner/out && dotnet MikanScan.ConsoleApp.dll
       
-      - name: save cache
+      - name: save db cache
         id: cache-primes-save
         uses: actions/cache/save@v4
         with:
