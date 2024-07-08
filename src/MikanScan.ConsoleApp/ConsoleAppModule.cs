@@ -43,13 +43,13 @@ public class ConsoleAppModule : AbpModule
         // });
 
 
-        // var notify = context.ServiceProvider.GetRequiredService<ILocalEventBus>();
-        // await notify.PublishAsync(new NotifyEto
-        // {
-        //     Title = "加入队列成功",
-        //     Content = "秘密的偶像公主: [LoliHouse] 秘密的偶像公主 / Himitsu no AiPri - 10 [WebRip 1080p HEVC-10bit AAC][无字幕] 已加入下载队列",
-        //     Poster = "https://mikan.skylandone.asia/images/Bangumi/202304/1d84a9bf.jpg"
-        // });
+        var notify = context.ServiceProvider.GetRequiredService<ILocalEventBus>();
+        await notify.PublishAsync(new NotifyEto
+        {
+            Title = "加入队列成功",
+            Content = "秘密的偶像公主: [LoliHouse] 秘密的偶像公主 / Himitsu no AiPri - 10 [WebRip 1080p HEVC-10bit AAC][无字幕] 已加入下载队列",
+            Poster = "https://mikan.skylandone.asia/images/Bangumi/202304/1d84a9bf.jpg"
+        });
 
 
         var runType = configuration.GetSection("RunType").Get<int>();
