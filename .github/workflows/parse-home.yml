@@ -37,9 +37,7 @@ jobs:
           TELEGRAMTOKEN: ${{ vars.TELEGRAMTOKEN }}
           TELEGRAMHOST: ${{ vars.TELEGRAMHOST }}
           RUNTYPE: 1
-        run: cd ./src/MikanScan.ConsoleApp && \
-          dotnet publish -c Release --no-restore -o /out && \
-          cd /out && dotnet MikanScan.ConsoleApp.dll
+        run: cd ./src/MikanScan.ConsoleApp && dotnet publish -c Release --no-restore -o /out && cd /out && dotnet MikanScan.ConsoleApp.dll
       
       - uses: actions/upload-artifact@v4
         with:
