@@ -79,7 +79,7 @@ public class ConsoleAppModule : AbpModule
         {
             Title = "开始Anime抓取",
             Content = "开始Anime抓取",
-            Poster = "https://mikan.skylandone.asia/images/mikan-pic.png"
+            // Poster = "https://mikan.skylandone.asia/images/mikan-pic.png"
         });
         await mikan.ParseHome(configuration["BaseUrl"] ?? "");
         logger.LogInformation($"Anime抓取成功");
@@ -87,7 +87,7 @@ public class ConsoleAppModule : AbpModule
         {
             Title = "Anime抓取成功",
             Content = "Anime抓取成功",
-            Poster = "https://mikan.skylandone.asia/images/mikan-pic.png"
+            // Poster = "https://mikan.skylandone.asia/images/mikan-pic.png"
         });
         logger.LogLine();
     }
@@ -100,7 +100,7 @@ public class ConsoleAppModule : AbpModule
         {
             Title = "RSS更新开始",
             Content = "RSS更新开始",
-            Poster = "https://mikan.skylandone.asia/images/mikan-pic.png"
+            // Poster = "https://mikan.skylandone.asia/images/mikan-pic.png"
         });
         await rss.RefreshRssAsync();
         logger.LogInformation($"RSS更新成功");
@@ -108,7 +108,7 @@ public class ConsoleAppModule : AbpModule
         {
             Title = "RSS更新成功",
             Content = "RSS更新成功",
-            Poster = "https://mikan.skylandone.asia/images/mikan-pic.png"
+            // Poster = "https://mikan.skylandone.asia/images/mikan-pic.png"
         });
         logger.LogLine();
     }
