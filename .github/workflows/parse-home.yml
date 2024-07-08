@@ -40,13 +40,13 @@ jobs:
           TELEGRAM:HOST: ${{ vars.TELEGRAMHOST }}
           RUNTYPE: 1
         run: | 
-          [[ -e ./data/anime.db ]] && cp ./data/anime.db /home/runner/out/data/anime.db
+          [[ -e ./data/anime.db ]] && yes | cp -rf ./data/anime.db /home/runner/out/data/anime.db
           cd /home/runner/out
           dotnet MikanScan.ConsoleApp.dll      
 
       - name: Commit changes
         run: |
-          cp /home/runner/out/data/anime.db ./data/anime.db
+          yes | cp -rf /home/runner/out/data/anime.db ./data/anime.db
           git config --global user.name "github-actions"
           git config --global user.email "action@github.com"
   
